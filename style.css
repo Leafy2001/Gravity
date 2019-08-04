@@ -2,7 +2,6 @@
 	box-sizing: border-box;
 	margin: 0px;
 	padding: 0px;
-	
 }
 body{
 		background-image:url("https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
@@ -12,7 +11,6 @@ body{
 		background-attachment: fixed;
 		font-family:  Lato,'Helvetica Neue',Arial,Helvetica, sans-serif;
 		color: white;
-	background-color:black;
 }
 
 header{
@@ -157,6 +155,36 @@ nav ul li a{
 	padding: 20px;
 	
 }
+#price-table{
+	text-align: center;
+	background-color: black;
+	padding-bottom: 2vh;
+	width: 70%;
+	margin: auto;
+}
+#price-table table{
+	padding: 10px;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 5vh;
+}
+#social{
+	width: 80%;
+	width: auto;
+	text-align: center;
+	font-size: 1.2rem;
+	margin-top: 5vh;
+}
+#social a{
+	color: white;
+	text-decoration: none;
+}
+#social i{
+	border: 1px solid white;
+	border-radius: 50%;
+	padding: 10px;
+	
+}
 footer{
 	display: flex;
 	align-items: center;
@@ -166,11 +194,4 @@ footer{
 	padding-left: 2vw;
 	height: 10vh;
 	margin-top: 2vh;
-}
-
-
-@media (max-width: 400px){
-	header{
-		height: 10px;
-	}
 }
