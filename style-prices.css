@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	margin: 0px;
 	padding: 0px;
+	background-color: black;
 }
 body{
 		background-image:url("https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
@@ -11,6 +12,7 @@ body{
 		background-attachment: fixed;
 		font-family:  Lato,'Helvetica Neue',Arial,Helvetica, sans-serif;
 		color: white;
+	
 }
 
 header{
