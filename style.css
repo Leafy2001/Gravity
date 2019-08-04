@@ -1,0 +1,174 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+		background-image:url("https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+        background-repeat: no-repeat;
+		background-position: center;
+        background-size: cover;
+		background-attachment: fixed;
+		font-family:  Lato,'Helvetica Neue',Arial,Helvetica, sans-serif;
+		color: white;
+}
+
+header{
+	background-color: black;
+	height: 15vh;
+	width: 100%;
+}
+#logoArea{	
+	/*display: flex;
+	align-items: center;*/
+	display: inline-block;
+	background-image: url("images/logo.gif");
+	width: 20%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+nav{
+	float:right;
+	width: 80%;
+	border: 1px solid black;
+	height: 100%;
+	clear: both;
+}
+nav ul{
+	
+	width: 100%;
+	margin-top: 5vh;
+}
+nav ul li{
+	float: right;
+	list-style-type: none;
+	margin-right: 3vw;
+}
+nav ul li a{
+	color: white;
+	text-decoration:none;
+	padding: 25px;
+	border-radius: 10px;
+	border:1px solid white;
+}
+
+#main{
+	width: 80%;
+	margin: auto;
+	height: auto;
+	margin-top: 2vh;
+	/*background-image: radial-gradient(#976DB7 60%, #00477D);*/
+	border-radius: 10px;
+	clear: both;
+	opacity: 1;
+}
+
+#jumbotron{
+	padding-top: 1vh;
+	text-align: center;
+	margin: auto;
+}
+#tag-line{
+	text-align: center;
+	margin-top: 4vh;
+
+}
+#tag-line p{
+	font-size: 2rem;
+	font-family:  Lato,'Helvetica Neue',Arial,Helvetica, sans-serif;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+#tag-line p b{
+	font-size: 3rem;
+	text-align: center;
+}
+
+#colleges{
+	margin-top: 10vh;
+	text-align: center;
+}
+#colleges h1{
+	font-size: 3rem;
+}
+
+#other-lines{
+	text-align: center;
+	width: 60%;
+	margin:auto;
+}
+
+#l1{
+	font-size: 2rem;
+}
+
+#l2{
+	font-size: 2rem;
+}
+#l2 b{
+	font-size: 1.9rem;
+}
+#other-lines h1{
+	font-size: 4rem;
+	font-weight: 700;
+}
+#l3{
+	font-size: 1.5rem;
+}
+#whatsapp{
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	text-align: center;
+}
+#whatsapp a{
+	text-decoration: none;
+	border: 1px solid green;
+	padding: 10px 20px;
+	background-color: green;
+	color: white;
+	border-radius: 10px;
+	font-size: 1.1rem;
+}
+#whatsapp a.poster{
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+}
+#social{
+	width: 80%;
+	width: auto;
+	text-align: center;
+	font-size: 1.2rem;
+}
+#social a{
+	color: white;
+	text-decoration: none;
+}
+#social i{
+	border: 1px solid white;
+	border-radius: 50%;
+	padding: 10px;
+	
+}
+footer{
+	display: flex;
+	align-items: center;
+	color: white;
+	background-color: black;
+	width: 100%;
+	padding-left: 2vw;
+	height: 10vh;
+	margin-top: 2vh;
+}
+
+
+@media (max-width: 400px){
+	header{
+		height: 10px;
+	}
+}
